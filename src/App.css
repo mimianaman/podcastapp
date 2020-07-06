@@ -1,38 +1,159 @@
-.App {
-  text-align: center;
+.container-fluid {
+  /* margin: 0;
+  padding: 0; */
+  background-image: url(./assets/images/model-2.jpg);
+  /* opacity: 0.9; */
+  height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.first-container {
+  height: 100vh;
+  width: 100vh;
+  background-position: center;
+  padding-left: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer {
+  background-color: orange;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.playimageicon {
+  position: absolute;
+  display: inline-block;
+  left: 75%;
+  top: 50%;
+}
+img {
+  height: 600px;
+  width: 600px;
+  border-bottom: rgb(244, 177, 51);
+  position: absolute;
+  left: 72%;
+  bottom: 40%;
+  border: solid 1px black;
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+  border-radius: 300px;
+}
+.photo1 {
+  border: #4c152c solid 1px;
+  border-radius: 125px;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 70%;
+  top: 37%;
+  background: #6f1e51;
+  opacity: 0.7;
+}
+.bg-blue {
+  background: #2d85ca;
+}
+.vertical {
+  border: gainsboro 1px solid;
+  margin-bottom: 2rem;
+}
+.photo2 {
+  border: black solid 1px;
+  border-radius: 75px;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left: 84%;
+  top: 50%;
+  background: #fc427b;
+  display: inline-block;
+}
+.profiles1 {
+  height: 50px;
+  width: 50px;
+  background: #b33939;
+  border-radius: 15px;
+}
+.aligned {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.bottomText {
+  color: blanchedalmond;
+  font-size: x-small;
+}
+
+.profiles2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  background: #3c40c6;
+}
+.profiles3 {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  background: #cd6133;
+}
+.profiles4 {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  background: #f9ca24;
+}
+.playicon {
+  margin-left: 2rem;
+  padding-bottom: 1rem;
+}
+.doticon {
+  position: absolute;
+  top: 70%;
+}
+h4 {
   color: white;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.topBorder {
+  border-top: solid 1px gray;
+  margin-top: 17%;
+  width: 90%;
+}
+.imageRow {
+  margin-top: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.second-container {
+  height: 100vh;
+  width: 100vh;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menuicon {
+  border: "solid 1px orange";
+  background-color: #e85c35;
+  padding: 3px;
+  justify-content: center;
+}
+span {
+  color: gray;
+  text-transform: uppercase;
+  margin-left: 30px;
+  font-size: small;
+}
+.searchicon {
+  margin-left: 800px;
+}
+h1 {
+  color: gainsboro;
+  margin-top: 100px;
+  margin-left: 80px;
+  text-transform: capitalize;
+  font-size: 70px;
+  letter-spacing: 1rem;
+}
+h5 {
+  margin-left: 80px;
+  color: gray;
+  margin-top: 20px;
+}
+small {
+  margin-left: 80px;
+  color: #da7730;
 }
